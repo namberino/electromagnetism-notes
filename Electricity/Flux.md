@@ -6,7 +6,7 @@ We know that if the wind is stronger or the net is bigger, it will catch more wi
 
 To describe this, we need to get the net area vector (a vector that's perpendicular to the net's area) and the length (net's area).
 
-![](wind-net-vector-flux.png)
+![](../Assets/wind-net-vector-flux.png)
 
 If the circle has an area of 5 then the vector will have the length of 5. If the wind is bigger, the net's area is bigger, or they point more in the same direction, then we'll catch more wind.
 
