@@ -72,13 +72,13 @@ $$
 \phi_E = \frac{kq}{r^2} 4 \pi r^2 = kq 4\pi
 $$
 
-If we put $k4\pi$ into a new constant (since those 3 are already constants) called $\epsilon_0$, we get Gauss's law:
+If we put $k4\pi$ into a new constant (since those 3 are already constants) called $\epsilon_0$, we get *Gauss's law*:
 
 $$
 \phi_E = \oint{\vec{E} \cdot d\vec{A}} = \frac{q}{\epsilon_0}
 $$
 
-This law works for any closed surface (called a Gaussian surface):
+This law works for any closed surface (called a *Gaussian surface*):
 
 $$
 \phi_{E2} = E_1 A_1 = \phi_{E1}
@@ -97,3 +97,15 @@ If we have a charge outside of the surface, it will have a flux that goes both i
 ![](../Assets/charge-flux-outside-of-surface.png)
 
 Using the same arguments, the amount of flux going into the surface has to be equal to the amount of flux going out of the surface, so they cancel each other, leaving *zero net flux* for charges outside of the surface.
+
+Now we have *Gauss's law*:
+
+$$
+\begin{align}
+\phi_E = \oint{\vec{E} \cdot d\vec{A}} = \frac{q_{enc}}{\epsilon_0}
+\\
+\phi_{E2} = E_1 A_1 = \phi_{E1}
+\end{align}
+$$
+
+This makes calculating electric field a whole lot easier.
