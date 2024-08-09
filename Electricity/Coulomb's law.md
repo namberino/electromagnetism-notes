@@ -15,6 +15,7 @@ F \propto q_2
 F \propto \frac{1}{r^2}
 \end{align}
 $$
+
 Where:
 - $F$ is force
 - $q_1$ is the charge of object 1, $q_2$ is the charge of object 2
@@ -25,6 +26,7 @@ Combining all the force equations give us this:
 $$
 F = \frac{k q_1 q_2}{r^2}
 $$
+
 With $k = 8.99 \times 10^9$
 
 The force is equal to the constant $k$ times both the charges divided by the radius squared. This is the *Coulomb's law*. Compared to the Newton's law of gravitation equation, the equation looks almost identical.
@@ -87,6 +89,7 @@ Assuming the object is a continuous line on a graph
 $$
 Q = (\frac{Q}{L})L = \sigma L
 $$
+
 Where:
 - $Q$ is the total charge on the line
 - $L$ is the length of the line
@@ -97,6 +100,7 @@ So the differential charge is equal to the charge density times a very tiny leng
 $$
 dQ = \sigma dL = \sigma dx
 $$
+
 If we add up the differential charges using an integral, we can calculate the electric field of the continuous object
 
 $$

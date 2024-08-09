@@ -19,6 +19,7 @@ $$
 \phi = \vec{W} \cdot \vec{A}
 \end{aligned}
 $$
+
 This is what flux is. It's just how much a vector field flows through a given area. If we have a more complicated surface, we just break it up into smaller areas ($d\vec{A}$) and add up the flux across the whole surface:
 
 $$
@@ -38,6 +39,7 @@ Flux equation:
 $$
 \phi_E = \oint{\vec{E} \cdot d\vec{A}}
 $$
+
 > The circle integral means we're adding up over a closed surface.
 
 Since both the electric field and the area vector points in the same direction away from the charge, we can simplify from the dot product to the scalar product:
