@@ -12,6 +12,7 @@ This repo contains my notes on electromagnetism. I try to note the theory of ele
 	- [Recap](./Electricity/Recap.md)
 2. [Circuit](./Circuit): Electromagnetism in circuits
 	- [Resistance](./Circuit/Resistance.md)
+	- [Power](./Circuit/Power.md)
 
 ## References
 
