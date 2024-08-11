@@ -75,3 +75,29 @@ $$
 Example: If we have a resistance of $2 \ohm$ then we'd need a voltage of $2V$ to get $1A$ of current. This is *Ohm's law*.
 
 Imagine a water pipe. If the pipe has high resistance (small pipe, rugged surface, etc), then in order to get the water flow in the pipe to reach a desired flow rate, we'd need a high potential (large difference in pressure between 2 ends of the pipe). That's basically what Ohm's law is.
+
+If a resistor is longer, there'll be more resistance. If a resistor is wider, there'll be less resistance.
+
+$$
+\begin{align}
+R \propto l
+\\
+R \propto \frac{1}{A}
+\\
+R = \frac{\rho l}{A}
+\\
+R = \int{\frac{\rho dl}{A}}
+\end{align}
+$$
+
+We can get the resistance of multiple resistor by integrating the resistance across each differential length. Resistor in series effectively creates a larger resistor with *larger length*.
+
+$$
+R_T = R_1 + R_2 +  ... + R_n
+$$
+
+Resistor in parallel effectively creates a larger resistor with *larger area*. Since resistance is inversely proportional to the area, we can calculate resistance by adding up inverse of the resistance of each resistor.
+
+$$
+\frac{1}{R_T} = \frac{1}{R_1} + \frac{1}{R_2} + ... + \frac{1}{R_n}
+$$
