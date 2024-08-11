@@ -9,3 +9,8 @@ This repo contains my notes on electromagnetism. I try to note the theory of ele
 	- [Flux](./Electricity/Flux.md)
 	- [Electric fields calculation](./Electricity/Electric%20fields%20calculation.md)
 	- [Voltage](./Electricity/Voltage.md)
+
+## References
+
+- [University Physics with Modern Physics -  Hugh Young, Roger Freedman](https://www.amazon.com/University-Physics-Modern-15th/dp/0135159555)
+- [Magnetism and electromagnetism - Khan Academy](https://www.khanacademy.org/science/ap-physics-2/ap-magnetic-forces-and-magnetic-fields)
