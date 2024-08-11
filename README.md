@@ -9,6 +9,7 @@ This repo contains my notes on electromagnetism. I try to note the theory of ele
 	- [Flux](./Electricity/Flux.md)
 	- [Electric fields calculation](./Electricity/Electric%20fields%20calculation.md)
 	- [Voltage](./Electricity/Voltage.md)
+	- [Recap](./Electricity/Recap.md)
 
 ## References
 
