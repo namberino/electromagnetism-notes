@@ -15,6 +15,7 @@ This repo contains my notes on electromagnetism. I try to note the theory of ele
 	- [Power](./Circuit/Power.md)
 	- [Kirchhoff's Laws](./Circuit/Kirchhoff's%20Laws.md)
 	- [Capacitors](./Circuit/Capacitors.md)
+	- [Alternating Current](./Circuit/Alternating%20Current.md)
 
 ## References
 
