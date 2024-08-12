@@ -51,3 +51,19 @@ $$
 ![](../Assets/capacitor-charge-curve-slope.png)
 
 At the beginning, a lot of charges is flowing through the capacitor, then it goes to 0 over time because the capacitor is opposing the voltage from the battery.
+
+This circuit is made to account for voltage fluctuation.
+
+![](../Assets/voltage-fluctuation-circuit.png)
+
+When the battery's on, at first, the current goes through the capacitor, charging it up. Once the capacitor is fully charged, the voltage source's current will divert, going to the rest of the circuit. If the voltage source somehow goes out, the current will continue to go from the capacitor to the rest of the circuit. We can model the decay with the exponential decay equation:
+
+$$
+Q(t) = Q_f e^{\frac{-t}{RC}}
+$$
+
+![](../Assets/capacitor-decay-circuit.png)
+
+The capacitor starts with a lot of charges and quickly gets rid of it through the resistor.
+
+Generally, the capacitor works kinda like an open wire at the beginning, allowing current flow when it's charging up its plates. Over time, as it gets more charged up, it will turn into an open circuit, opposing voltage applied across it.
