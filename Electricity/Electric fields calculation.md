@@ -1,4 +1,4 @@
-Make sure you already read through [Coulomb's Law](./Coulomb's%20law.md) and [Flux](./Flux.md) first.
+Make sure you already read through [Coulomb's Law](Coulomb's%20Law.md) and [Flux](./Flux.md) first.
 
 Say we have a large sheet of charges the electric field of the sheet of charges will point away from both sides of the sheet.
 
