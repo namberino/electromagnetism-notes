@@ -5,9 +5,9 @@ This repo contains my notes on electromagnetism. I try to note the theory of ele
 ## Table of content
 
 1. [Electricity](./Electricity/): How does electricity works
-	- [Coulomb's Law](Coulomb's%20Law.md)
+	- [Coulomb's Law](./Electricity/Coulomb's%20Law.md)
 	- [Flux](./Electricity/Flux.md)
-	- [Electric Fields Calculation](Electric%20Fields%20Calculation.md)
+	- [Electric Fields Calculation](./Electricity/Electric%20Fields%20Calculation.md)
 	- [Voltage](./Electricity/Voltage.md)
 	- [Recap](./Electricity/Recap.md)
 2. [Circuit](./Circuit): Electromagnetism in circuits
