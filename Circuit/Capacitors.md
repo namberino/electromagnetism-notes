@@ -115,3 +115,39 @@ Capacitors in series effectively creates a bigger capacitor with *larger distanc
 $$
 \frac{1}{C_T} = \frac{1}{C_1} + \frac{1}{C_2} + ... + \frac{1}{C_n}
 $$
+
+Energy is also a property of the capacitor that we can calculate with integrating voltage times charge, which gives us potential energy.
+
+$$
+U = \int{V dq} = \int_0^Q{\frac{q}{C}dq} = \frac{Q^2}{2C} = \frac{1}{2}CV^2
+$$
+
+We can also calculate for the energy per volume $V$ or the energy density of the electric field:
+
+$$
+\begin{align}
+U = \frac{1}{2}(\frac{\epsilon_0A}{d})(Ed)^2 = \frac{1}{2}\epsilon_0 E^2 (Ad)
+\\
+\frac{U}{V} = \frac{1}{2}\epsilon_0E^2
+\end{align}
+$$
+
+Most capacitors have an insulating material between the 2 plates called a *dielectric*. While it can't conduct charges, it can reorient the charges in itself to fit the charges in the capacitor's plates. We get an electric field from this, flowing opposite from the capacitor's. Since the voltage is derived from the electric field, a weaker electric field means higher capacitance since we need less voltage to get the same amount of charge on each plate, making the capacitor more powerful.
+
+$$
+\begin{align}
+|V| = \int{\vec{E} \cdot d\vec{l}}
+\\
+C = \frac{Q}{V}
+\end{align}
+$$
+
+The dielectric basically weakens the electric field by some factor $\kappa$. You can think of it as it changes the permeability constant ($\epsilon_0$).
+
+$$
+\begin{align}
+E \rightarrow \kappa E
+\\
+\epsilon_0 \rightarrow \kappa \epsilon_0
+\end{align}
+$$
