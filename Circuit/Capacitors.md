@@ -67,3 +67,51 @@ $$
 The capacitor starts with a lot of charges and quickly gets rid of it through the resistor.
 
 Generally, the capacitor works kinda like an open wire at the beginning, allowing current flow when it's charging up its plates. Over time, as it gets more charged up, it will turn into an open circuit, opposing voltage applied across it.
+
+Geometrically speaking, let's call the area of the plate $A$ and the distance between the plates $d$:
+
+![](../Assets/capacitor-geometric-label.png)
+
+We know the electric field can be calculated like this:
+
+$$
+E = \frac{\sigma}{2\epsilon_0}
+$$
+
+For 2 plates, we'll get this electric field equation:
+
+$$
+E = \frac{\sigma}{\epsilon_0}
+$$
+
+The charge density is the same thing as the charge per area. So we get this:
+
+$$
+E = \frac{Q}{A \epsilon_0}
+$$
+
+To get the voltage, we can add up the product of the electric field along some length. So it's just $E$ times the length since the electric field is constant:
+
+$$
+|V| = \int_0^d{\vec{E} \cdot d \vec{s}} = \int_0^d{\frac{Q}{A \epsilon_0}dl} = \frac{Qd}{A\epsilon_0}
+$$
+
+So we can calculate the capacitance using the electric field:
+
+$$
+C = \frac{Q}{V} = \frac{Q}{\frac{Qd}{A\epsilon_0}} = \frac{\epsilon_0 A}{d}
+$$
+
+The capacitance is proportional to the area and inversely proportional to the distance between the plates. 
+
+Capacitors in parallel effectively creates a bigger capacitor with *larger plates*.
+
+$$
+C_T = C_1 + C_2 + ... + C_n
+$$
+
+Capacitors in series effectively creates a bigger capacitor with *larger distance between the plates*.
+
+$$
+\frac{1}{C_T} = \frac{1}{C_1} + \frac{1}{C_2} + ... + \frac{1}{C_n}
+$$
