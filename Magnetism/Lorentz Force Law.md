@@ -6,8 +6,6 @@ $$
 
 This means if a particle is not moving or has no velocity ( $\vec{v} = 0$, $\vec{0} = q\vec{0} \times \vec{B}$ ) then there's no magnetic force or the particle is moving parallel to the magnetic field ( $0 = qvB \sin(0)$ ). Once the particle starts moving slightly perpendicular to the magnetic field, the charge experiences a force that's both perpendicular to its velocity and the magnetic field, specifically with the cross product.
 
-This means if a particle is not moving or has no velocity ($\vec{v} = 0$, $\vec{0} = q\vec{0} \times \vec{B}$) then there's no magnetic force or the particle is moving parallel to the magnetic field ($0 = qvB \sin(0)$). Once the particle starts moving slightly perpendicular to the magnetic field, the charge experiences a force that's both perpendicular to its velocity and the magnetic field, specifically with the cross product.
-
 New right hand rule time. This right hand rule has us using 3 fingers, middle finger, index finger, and thumb. The middle finger points in the magnetic field vector, the thumb points in the force vector, and the index finger points in the current vector.
 
 If we have an electron and a magnetic field pointing to the right, which direction would the force vector be pointing to?
