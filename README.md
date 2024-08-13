@@ -18,6 +18,7 @@ This repo contains my notes on electromagnetism. I try to note the theory of ele
 	- [Alternating Current](./Circuit/Alternating%20Current.md)
 3. [Magnetism](./Magnetism/): Exploring the world of magnetism
 	- [Biot-Savart Law](./Magnetism/Biot-Savart%20Law.md)
+	- [Lorentz Force Law](./Magnetism/Lorentz%20Force%20Law.md)
 
 ## References
 

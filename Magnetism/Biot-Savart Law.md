@@ -51,3 +51,7 @@ $$
 $$
 
 We get that adding up the current ($I$) times a small bit of length ($d\vec{l}$) crossed with the radius ($\hat{r}$) divided by the radius squared ($r^2$).
+
+![](../Assets/biot-savart-3d-visual.png)
+
+This is a 3D version of the Biot-Savart law. If we apply the right hand rule, we see the index finger pointing in the direction of $dl$. The middle finger shows us the direction to the observation point. The thumb shows us the direction of the magnetic field. So we can see the $\vec{B}$ points in the correct direction. We can also see the $r$ vector and we can derive the $\hat{r}$ vector from $r$ since $\hat{r}$ is just the unit vector of $r$.
