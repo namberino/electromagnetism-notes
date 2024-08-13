@@ -10,12 +10,14 @@ This repo contains my notes on electromagnetism. I try to note the theory of ele
 	- [Electric Fields Calculation](./Electricity/Electric%20Fields%20Calculation.md)
 	- [Voltage](./Electricity/Voltage.md)
 	- [Recap](./Electricity/Recap.md)
-2. [Circuit](./Circuit): Electromagnetism in circuits
+2. [Circuit](./Circuit/): Electromagnetism in circuits
 	- [Resistance](./Circuit/Resistance.md)
 	- [Power](./Circuit/Power.md)
 	- [Kirchhoff's Laws](./Circuit/Kirchhoff's%20Laws.md)
 	- [Capacitors](./Circuit/Capacitors.md)
 	- [Alternating Current](./Circuit/Alternating%20Current.md)
+3. [Magnetism](./Magnetism/): Exploring the world of magnetism
+	- [Biot-Savart Law](./Magnetism/Biot-Savart%20Law.md)
 
 ## References
 
