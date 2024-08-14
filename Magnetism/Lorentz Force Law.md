@@ -92,3 +92,10 @@ $$
 \end{align}
 $$
 
+For parallel wires like this:
+
+![](../Assets/magnetic-wires-parallel.png)
+
+The bottom wire will creates a curling magnetic field that points out of the screen. So using the right hand rule, the top wire will be pulled downwards into the bottom wire. Likewise, the top wire creates a curling magnetic field that points into the screen. So using the right hand rule, the bottom wire will be pulled upwards into the top wire.
+
+![](../Assets/parallel-wires-magnetic-and-force.png)
