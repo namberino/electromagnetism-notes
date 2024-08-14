@@ -99,3 +99,63 @@ For parallel wires like this:
 The bottom wire will creates a curling magnetic field that points out of the screen. So using the right hand rule, the top wire will be pulled downwards into the bottom wire. Likewise, the top wire creates a curling magnetic field that points into the screen. So using the right hand rule, the bottom wire will be pulled upwards into the top wire.
 
 ![](../Assets/parallel-wires-magnetic-and-force.png)
+
+Now let's look at a charged up capacitor with long wires. We'll also add a magnetic field pointing out of the screen in the middle of the wires and a conductive metal piece connecting the 2 wires:
+
+![](../Assets/capacitor-long-wires.png)
+
+With a small resistance, we know that this will draw a lot of current. This large current along with the magnetic field will produce a large force to the left. So the metal piece gets pushed quickly to the left. This is the basic principle of railguns.
+
+![](../Assets/current-loop-around-magnetic-field.png)
+
+Let's take a loop of current around a magnetic field. We want to compute the torque of the loop, which is the same as the radius cross with the force.
+
+$$
+\vec{\tau} = \vec{r} \times \vec{F}
+$$
+
+If you push from farther away or with more force, the you get more torque, which will make the loop spin. We want to get the torque that will make the loop spin its top axis. The parts of the wire that are parallel to the magnetic field won't create any torque. So we can just focus on the 2 vertical wires.
+
+![](../Assets/current-loop-around-magnetic-field-topdown.png)
+
+Using the right hand rule, we can determine that the right wire will have a force going downwards, and the left wire will have a force going upwards. We can rewrite the cross product as this (with $\theta$ begin the angle between the wire and the force):
+
+$$
+\vec{\tau} = rF \sin(\theta)
+$$
+
+The radius is half the width of this top wire:
+
+$$
+\vec{\tau_{loop}} = (\frac{w}{2} F \sin(\theta)) 2 = w F \sin(\theta)
+$$
+
+The $2$ is there since we have 2 of each wire. We know that the force is calculated with this:
+
+$$
+\vec{F} = IlB\sin(\theta)
+$$
+
+Since the angle between the current (which is pointing out of the screen) and the magnetic field is $90\degree$, the force is just $IlB$. Plugging this into the other equation:
+
+$$
+\vec{\tau_{loop}} = w IlB \sin(\theta)
+$$
+
+And with width $w$ times length $l$, we get the area of the loop. So we can simplify it like this:
+
+$$
+\vec{\tau_{loop}} = IAB \sin(\theta)
+$$
+
+For multiple loops, we can define a new vector called $\mu$. Note that $N$ is the number of loops.
+
+$$
+\begin{align}
+\vec{\tau_{loop}} = \vec{\mu} \times \vec{B}
+\\
+| \vec{\mu} | = NIA
+\end{align}
+$$
+
+![](../Assets/torque-wire-magnetic.png)
