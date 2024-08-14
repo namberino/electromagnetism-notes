@@ -19,7 +19,7 @@ This repo contains my notes on electromagnetism. I try to note the theory of ele
 3. [Magnetism](./Magnetism/): Exploring the world of magnetism
 	- [Biot-Savart Law](./Magnetism/Biot-Savart%20Law.md)
 	- [Lorentz Force Law](./Magnetism/Lorentz%20Force%20Law.md)
-	- [Gauss's Law for Magnetism and Ampere's Law](Gauss's%20Law%20for%20Magnetism%20and%20Ampere's%20Law.md)
+	- [Gauss's Law for Magnetism and Ampere's Law](./Magnetism/Gauss's%20Law%20for%20Magnetism%20and%20Ampere's%20Law.md)
 1. [Electromagnetism](./Electromagnetism/): Connecting it all together
 
 ## References
