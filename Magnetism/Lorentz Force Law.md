@@ -23,3 +23,72 @@ If we have a straight magnetic field and a charge, that charge will circle the t
 ![](../Assets/helical-charge-magnetic-field.png)
 
 *Side note*: This is how the northern lights work. Charges in the atmosphere get curled into a helical path because of the Earth's magnetic field. These accelerating charges create light waves.
+
+If we have a wire of charges, we'll need to take the charge inside the wire. 
+
+$$
+\vec{F} = Q_{total} \vec{v} \times \vec{B}
+$$
+
+We know we can get the charge inside a wire with this:
+
+$$
+Q = (nq)Al
+$$
+
+Plugging this into the other equation:
+
+$$
+\vec{F} = nqAl \vec{v} \times \vec{B} = nqAv \vec{l} \times \vec{B}
+$$
+
+If we let the length vector point in the same direction as velocity, we can swap them since the magnitude and the direction are both preserved. So we get the current times the length vector:
+
+$$
+\vec{F} = I \vec{l} \times \vec{B}
+$$
+
+If the magnetic field changes across the wire, we can just add up the force across the wire using integrals:
+
+$$
+\vec{F} = \int{I d \vec{l} \times \vec{B}}
+$$
+
+So the magnetic force acting on a wire of current equals to adding up the current times the differential length cross with the magnetic field across the whole wire.
+
+![](../Assets/magnetic-field-measuring.png)
+
+Now what about measuring magnetic field in real life. What we can do is position the magnetic field perpendicular to the current. The positive charges will be pushed upward. As more positive charges start to accumulate at the top, they create an electric field that opposes the magnetic field force until they're equal. Once they're equal, we know that the magnetic field force is equal and opposite to the force from the electric field. Since the current and magnetic field are perpendicular, this simplifies to just $qvB$ since $\sin(90\degree) = 1$. 
+
+$$
+\begin{align}
+qE = q\vec{v} \times \vec{B}
+\\
+qE = qvB \sin(\theta)
+\\
+qE = qvB
+\\
+E = vB
+\end{align}
+$$
+
+So the electric field is equal to the velocity times magnetic field. We also know that voltage is the accumulation of the electric field. Assuming the electric field is constant, we get this:
+
+$$
+\begin{align}
+V = - \oint{\vec{E} \cdot d\vec{l}}
+\\
+V = - El
+\end{align}
+$$
+
+Plugging this into the other equation, we get this magnetic field equation based on voltage, length and velocity:
+
+$$
+\begin{align}
+- \frac{V}{l} = vB
+\\
+- \frac{V}{vl} = B
+\end{align}
+$$
+
