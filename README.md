@@ -22,6 +22,7 @@ This repo contains my notes on electromagnetism. I try to note the theory of ele
 	- [Gauss's Law for Magnetism and Ampere's Law](./Magnetism/Gauss's%20Law%20for%20Magnetism%20and%20Ampere's%20Law.md)
 	- [Faraday's Law and Lenz's Law](./Magnetism/Faraday's%20Law%20and%20Lenz's%20Law.md)
 	- [Transformers](./Magnetism/Transformers.md)
+	- [Types of Magnetism](./Magnetism/Types%20of%20Magnetism.md)
 1. [Electromagnetism](./Electromagnetism/): Connecting it all together
 
 ## References
