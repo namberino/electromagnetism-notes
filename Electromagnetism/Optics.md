@@ -1,3 +1,5 @@
+# Geometric
+
 Let's trace out the path of light waves. When a light wave hits an interface between to materials, some of the light will usually be reflected. It reflects in such a way that the angle to the surface normal is the same in both cases. So these two angles here are the same.
 
 ![](../Assets/light-reflection-angle.png)
@@ -58,3 +60,47 @@ This can't happen, there's no angle that will give us total reflection from air 
 $$
 n_1 > n_2
 $$
+
+# Physical
+
+In some cases, we'll still need to worry about the wave properties of light when tracing out the path. A useful property is *interference*.
+
+When two waves meet at the same location, they add together. If they're in phase, then the resultant wave is larger. This is *constructive interference*. 
+
+![](../Assets/wave-adding.png)
+
+If the waves are out of phase, the resultant wave will be smaller. This is called *destructive interference*.
+
+![](../Assets/wave-subtracting.png)
+
+This actually shows up in the double slit experiment. We have a source area emitting light through two slits.
+
+![](../Assets/double-slit-experiment-1.png)
+
+Since they're coming from the same source, we're assuming that they start out in phase. The difference between the lengths of the two paths will tell us if they're in phase or not.
+
+![](../Assets/double-slit-experiment-2.png)
+
+If the path difference is an integer multiple of the wavelength, then they'll add constructively because the peaks and valleys will still match. But if it's a half multiple of the wavelength, then they'll add destructively.
+
+$$
+\begin{align}
+\Delta r = r_1 - r_2
+\\
+\text{Constructive: } \Delta r = m \lambda
+\\
+\text{Destructive: } \Delta r = (m + \frac{1}{2}) \lambda
+\end{align}
+$$
+
+What we see on a detector is certain bright spots where the waves add constructively because of the path length differences.
+
+Interference is also applied to *X-ray Diffraction*. If we have some kind of material that has a lattice structure and shine some light waves onto the lattice, we'll assume that the light waves reflect off it. The difference in the path lengths is equal to the length of the two highlighted segments, or the distance between the atoms times the sine of angle one plus the distance times the sine of angle two.
+
+![](../Assets/lattice-reflection.png)
+
+$$
+\Delta r = d \sin(\theta_1) + d \sin(\theta_2)
+$$
+
+If we know the wavelength of the light and we send the light in at some specific angles, we can determine how far apart the atoms are on the lattice.
