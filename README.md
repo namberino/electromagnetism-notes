@@ -24,7 +24,9 @@ This repo contains my notes on electromagnetism. I try to note the theory of ele
 	- [Transformers](./Magnetism/Transformers.md)
 	- [Inductors](./Magnetism/Inductors.md)
 	- [Types of Magnetism](./Magnetism/Types%20of%20Magnetism.md)
+	- [Recap](./Magnetism/Recap.md)
 1. [Electromagnetism](./Electromagnetism/): Connecting it all together
+	- [Electromagnetic Waves](./Electromagnetism/Electromagnetic%20Waves.md)
 
 ## References
 
