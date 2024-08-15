@@ -29,6 +29,7 @@ This repo contains my notes on electromagnetism. I try to note the theory of ele
 	- [Electromagnetic Waves](./Electromagnetism/Electromagnetic%20Waves.md)
 	- [Intensity](./Electromagnetism/Intensity.md)
 	- [Wave Pressure](./Electromagnetism/Wave%20Pressure.md)
+	- [Optics](./Electromagnetism/Optics.md)
 
 ## References
 
