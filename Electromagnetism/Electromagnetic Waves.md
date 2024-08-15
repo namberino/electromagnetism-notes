@@ -2,7 +2,7 @@ Combining Gauss's Law, Gauss's Law for Magnetism, Ampere's Law, Faraday's Law, a
 
 There's a small problem with how we write Ampere's Law in the [Magnetism](../Magnetism/) chapter. When we create a loop around our wire, we find the current through the loop is the charges flowing through any surface bounded by that loop.
 
-If we have a capacitor charging up with current, and we put a loop in, then the current through the loop's surface is the current on the wire, but the current through the cylinder surface is zero.
+Ampere's law states that the magnetic field around a closed loop is proportional to the electric current passing through the loop. In situations where the electric field changes over time, such as in a charging capacitor, this form of Ampere's law becomes problematic. Between the capacitor plates, there is no physical current, but there is a changing electric field. According to the original Ampere's law, this would suggest no magnetic field in this region, which contradicts experimental observations. If we were to measure the current through the loop's surface, we'd get the current on the wire. But the current through the entire cylinder surface is 0 as there's a gap.
 
 ![](../Assets/capacitor-loop-surface.png)
 
@@ -16,7 +16,7 @@ I_d = \epsilon_0 \frac{d\phi_E}{dt}
 \end{align}
 $$
 
-This fixes the capacitor problem because while the current is running, the capacitor is charging up, so there's changing electric flux through this cylinder surface, and there's also current through the loop's surface.
+This fixes the capacitor problem because while the current is running, the capacitor is charging up, so there's changing electric flux ($\phi_E = \int{E \cdot dA}$) through this cylinder surface, and there's also current through the loop's surface.
 
 This revision gives us the *Maxwell's equations*.
 

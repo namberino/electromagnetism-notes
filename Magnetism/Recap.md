@@ -1,4 +1,4 @@
-Gauss's Law: Relates the charge inside a closed surface to the flux through it.
+Gauss's Law: Tells us the charge through a closed surface is proportional to the total charge enclosed by that surface.
 
 $$
 \oint{\vec{E} \cdot d\vec{A}} = \frac{q_{enc}}{\epsilon_0}
